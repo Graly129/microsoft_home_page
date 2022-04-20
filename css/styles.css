@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-spacing: 1.5;
+
+}
+
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+/*header*/
+.nav_bar{
+    display: flex;
+    margin: 20px 0;
+
+}
+
+.nav_bar img{
+    height: 10%;
+    width: 15%;
+}
+
+.nav_bar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav_bar .main a{
+    text-decoration: none;
+    color: #262626;
+    margin: 0 20px;
+   
+}
+
+.nav_bar .main a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
+
+.nav_bar .sub-main{
+    margin-left: 350px;
+}
+
+.nav_bar .sub-main a{
+    text-decoration: none;
+    color: #262626;
+    margin: 0 10px;
+   
+}
+
+.nav_bar .sub-main a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
+
+
+
+
+/*show_case*/
+section{
+    position: relative;
+    
+}
+
+section img{
+    width: 100%;
+    
+}
+
+section div{
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    right: 400px;
+    text-align: center;
+    margin: 100px auto -25px;
+
+}
+
+section div h1{
+    margin: 20px;
+    
+}
+
+section div p{
+    margin-bottom: 40px;
+}
+
+.btn{
+    background-color: #262626;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 400px;
+}
+
+/*Features*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px auto;
+    gap: 20px;
+
+}
+
+.grid:hover{
+    box-shadow: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+
+}
+
+.grid img{
+    width: 100%;
+}
+
+.product h2{
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 650;
+    margin: 15px 0;
+
+}
+
+.product p{
+    display: inline-block;
+    line-height: 1.6;
+    margin: 0 0 20px;
+
+}
+
+
+.product a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #0067b8;
+    
+}
+
+.product a p:hover{
+    margin-right: 30px;
+
+}
+
+
+
+/*X-box*/
+.xbox{
+    position: relative;
+}
+
+.xbox img{
+    width: 100%;
+}
+
+.xbox div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    margin: 40px 30px;
+    display: inline-block;
+
+}
+
+.xbox div p{
+    margin: 30px 0;
+    line-height: 1.5;
+}
+
+
+
+/*CN*/
+.content div{
+    color: #fff;
+    width: 70%;
+    font-size: 1.2rem;
+    margin: 120px 50px;
+}
+
+.content a{
+    background-color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    text-transform: capitalize;
+
+}
+
+.container .social-icons{
+    display: flex;
+    padding: 30px 0;
+}
+
+.container .social-icons p{
+    display: inline-flex;
+    padding-top: 50px;
+}
+.container .social-icons a{
+    display: inline-flex;
+    justify-items: flex-start;
+    margin: -4px 7px auto;
+}
+
+/*footer*/
+footer{
+    background: #f2f2f2;
+    height: 70vh;
+}
+
+footer .flex{
+    padding: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+footer .flex div{
+    margin:50px auto;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    line-height: 2.5;
+    color: #616161;
+    font-size: 0.8rem;
+}
+
+footer p{
+    color: #616161;
+    font-weight: 500;
+    line-height: 2.7;
+}
+
+footer .foot_bar{
+    display: flex;
+    margin: auto auto 60px;
+    margin-left: 100px;
+    
+
+}
+
+.foot_bar ul{
+    display: flex;
+    margin: auto;
+
+}
+.foot_bar p{
+    color: #616161;
+}
+
+.foot_bar i{
+    margin-right: 10px;
+}
+
+.foot_bar a{
+    margin: auto 10px;
+    font-size: 0.77rem;
+}
+
